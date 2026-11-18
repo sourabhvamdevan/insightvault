@@ -1,0 +1,215 @@
+{
+  "description": "Retrieval evaluation over demo/sample_documents. A hit means a top-k result comes from the expected document and page.",
+  "questions": [
+    {
+      "id": "q01",
+      "question": "How much paid time off do I get each year?",
+      "document": "Employee_Handbook.pdf",
+      "page": 3,
+      "type": "paraphrase"
+    },
+    {
+      "id": "q02",
+      "question": "Can I roll over vacation days I didn't use?",
+      "document": "Employee_Handbook.pdf",
+      "page": 3,
+      "type": "paraphrase"
+    },
+    {
+      "id": "q03",
+      "question": "When do I need a doctor's note for being ill?",
+      "document": "Employee_Handbook.pdf",
+      "page": 4,
+      "type": "paraphrase"
+    },
+    {
+      "id": "q04",
+      "question": "How long is maternity leave and how much of it is paid?",
+      "document": "Employee_Handbook.pdf",
+      "page": 5,
+      "type": "paraphrase"
+    },
+    {
+      "id": "q05",
+      "question": "How long is the trial period for new hires?",
+      "document": "Employee_Handbook.pdf",
+      "page": 2,
+      "type": "paraphrase"
+    },
+    {
+      "id": "q06",
+      "question": "Is there money for training courses and conferences?",
+      "document": "Employee_Handbook.pdf",
+      "page": 6,
+      "type": "paraphrase"
+    },
+    {
+      "id": "q07",
+      "question": "What are the core working hours?",
+      "document": "Employee_Handbook.pdf",
+      "page": 1,
+      "type": "paraphrase"
+    },
+    {
+      "id": "q08",
+      "question": "How often am I allowed to work from home?",
+      "document": "Remote_Work_Policy.pdf",
+      "page": 2,
+      "type": "paraphrase"
+    },
+    {
+      "id": "q09",
+      "question": "Will the company pay for a desk or chair for my home setup?",
+      "document": "Remote_Work_Policy.pdf",
+      "page": 3,
+      "type": "paraphrase"
+    },
+    {
+      "id": "q10",
+      "question": "Can I work from abroad for a few weeks?",
+      "document": "Remote_Work_Policy.pdf",
+      "page": 2,
+      "type": "paraphrase"
+    },
+    {
+      "id": "q11",
+      "question": "Do I have to use the VPN when I'm not in the office?",
+      "document": "Remote_Work_Policy.pdf",
+      "page": 4,
+      "type": "paraphrase"
+    },
+    {
+      "id": "q12",
+      "question": "How long must my login password be?",
+      "document": "IT_Security_Policy.pdf",
+      "page": 2,
+      "type": "paraphrase"
+    },
+    {
+      "id": "q13",
+      "question": "Who do I tell if I clicked on a suspicious link in an email?",
+      "document": "IT_Security_Policy.pdf",
+      "page": 5,
+      "type": "paraphrase"
+    },
+    {
+      "id": "q14",
+      "question": "Can I email customer shipment data to a partner as an attachment?",
+      "document": "IT_Security_Policy.pdf",
+      "page": 4,
+      "type": "paraphrase"
+    },
+    {
+      "id": "q15",
+      "question": "How quickly must laptop operating system patches be applied?",
+      "document": "IT_Security_Policy.pdf",
+      "page": 3,
+      "type": "paraphrase"
+    },
+    {
+      "id": "q16",
+      "question": "How long are backups kept?",
+      "document": "IT_Security_Policy.pdf",
+      "page": 4,
+      "type": "paraphrase"
+    },
+    {
+      "id": "q17",
+      "question": "What is the maximum I can spend on a hotel room in Paris?",
+      "document": "Travel_Expense_Policy.pdf",
+      "page": 2,
+      "type": "paraphrase"
+    },
+    {
+      "id": "q18",
+      "question": "How much is the daily meal allowance on business trips?",
+      "document": "Travel_Expense_Policy.pdf",
+      "page": 2,
+      "type": "paraphrase"
+    },
+    {
+      "id": "q19",
+      "question": "Can I take a taxi late at night on a work trip?",
+      "document": "Travel_Expense_Policy.pdf",
+      "page": 3,
+      "type": "paraphrase"
+    },
+    {
+      "id": "q20",
+      "question": "What happens if I submit my expense claim very late?",
+      "document": "Travel_Expense_Policy.pdf",
+      "page": 4,
+      "type": "paraphrase"
+    },
+    {
+      "id": "q21",
+      "question": "Can I fly business class?",
+      "document": "Travel_Expense_Policy.pdf",
+      "page": 1,
+      "type": "paraphrase"
+    },
+    {
+      "id": "q22",
+      "question": "What is the cash withdrawal limit on a corporate card?",
+      "document": "Travel_Expense_Policy.pdf",
+      "page": 4,
+      "type": "paraphrase"
+    },
+    {
+      "id": "q23",
+      "question": "HR-204",
+      "document": "Employee_Handbook.pdf",
+      "page": 3,
+      "type": "identifier"
+    },
+    {
+      "id": "q24",
+      "question": "What does SEC-117 say?",
+      "document": "IT_Security_Policy.pdf",
+      "page": 3,
+      "type": "identifier"
+    },
+    {
+      "id": "q25",
+      "question": "RW-120",
+      "document": "Remote_Work_Policy.pdf",
+      "page": 3,
+      "type": "identifier"
+    },
+    {
+      "id": "q26",
+      "question": "TE-320 rules",
+      "document": "Travel_Expense_Policy.pdf",
+      "page": 3,
+      "type": "identifier"
+    },
+    {
+      "id": "q27",
+      "question": "Explain policy HR-230",
+      "document": "Employee_Handbook.pdf",
+      "page": 5,
+      "type": "identifier"
+    },
+    {
+      "id": "q28",
+      "question": "SEC-130",
+      "document": "IT_Security_Policy.pdf",
+      "page": 5,
+      "type": "identifier"
+    },
+    {
+      "id": "q29",
+      "question": "What is covered by HR-110?",
+      "document": "Employee_Handbook.pdf",
+      "page": 2,
+      "type": "identifier"
+    },
+    {
+      "id": "q30",
+      "question": "TE-310",
+      "document": "Travel_Expense_Policy.pdf",
+      "page": 2,
+      "type": "identifier"
+    }
+  ]
+}

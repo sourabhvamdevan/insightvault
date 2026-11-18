@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "IBM Plex Serif", ui-serif, Georgia, "Times New Roman", serif;
+
+  /* Ink: headings, sidebar, primary text */
+  --color-ink-950: #17132b;
+  --color-ink-900: #1f1a3a;
+  --color-ink-800: #2c2650;
+  --color-ink-700: #3d3763;
+  --color-ink-600: #54506f;
+  --color-ink-500: #6a667f;
+  --color-ink-400: #8a869b;
+  --color-ink-300: #b3b0c1;
+  --color-ink-200: #dcdae6;
+  --color-ink-100: #ecebf2;
+  --color-ink-50: #f6f5fa;
+
+  /* Violet: actions and highlights */
+  --color-signal-700: #5435c4;
+  --color-signal-600: #6240dc;
+  --color-signal-500: #7556ec;
+  --color-signal-100: #e4dcfc;
+  --color-signal-50: #f3effe;
+
+  /* Highlighter: the cited passage */
+  --color-marker: #fde68a;
+  --color-marker-strong: #fbd54a;
+
+  /* Retrieval modes (validated categorical set) */
+  --color-mode-hybrid: #0f8a7e;
+  --color-mode-semantic: #1f7fbf;
+  --color-mode-keyword: #c25e0a;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-ink-50 font-sans text-ink-900 antialiased;
+  font-feature-settings: "tnum" 1;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-signal-500);
+  outline-offset: 2px;
+}
+
+/* The cited passage, styled like a highlighter stroke on the page. */
+.marker {
+  background: linear-gradient(transparent 8%, var(--color-marker) 8%, var(--color-marker) 92%, transparent 92%);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  padding: 0 0.1em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
