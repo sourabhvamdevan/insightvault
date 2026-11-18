@@ -5,22 +5,21 @@
 
 **Production-grade grounded document intelligence platform with hybrid retrieval, page-level citations, and local LLM reasoning.**
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-YOUR--DEPLOYMENT.vercel.app-0070F3?style=for-the-badge&logo=vercel&logoColor=white)](https://YOUR-DEPLOYMENT.vercel.app)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Deployment-0070F3?style=for-the-badge&logo=vercel&logoColor=white)](https://frontend-nine-gray-98.vercel.app/)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![React 18](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS%204-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
 
-[Explore Live Demo](https://YOUR-DEPLOYMENT.vercel.app) · [Architecture](#architecture) · [Evaluation Benchmarks](#evaluation-results) · [Quick Start](#quick-start) · [API Reference](#api-contract)
+[Explore Live Demo](https://frontend-nine-gray-98.vercel.app/) · [Architecture](#architecture) · [Evaluation Benchmarks](#evaluation-results) · [Quick Start](#quick-start) · [API Reference](#api-contract)
 
 </div>
 
 ---
 
 > [!TIP]
-> **Experience the live web application:** A fully interactive, standalone version is deployed and running live at **[https://YOUR-DEPLOYMENT.vercel.app](https://YOUR-DEPLOYMENT.vercel.app)**. It includes a guided interactive tour, step-by-step retrieval trace inspector, multi-mode search comparisons, and simulated ingestion pipelines—directly in the browser with zero setup required.
+> **Experience the live web application:** A fully interactive, standalone version is deployed and running live at **[https://frontend-nine-gray-98.vercel.app/](https://frontend-nine-gray-98.vercel.app/)**. It includes a guided interactive tour, step-by-step retrieval trace inspector, multi-mode search comparisons, and simulated ingestion pipelines—directly in the browser with zero setup required.
 
 ---
 
